@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:23:3-63
+19-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:23:20-60
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:24:3-79
+20-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:24:20-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:25:3-65
+21-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:25:20-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:26:3-69
+22-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:26:20-66
+23
+24    <uses-feature android:glEsVersion="0x00030000" />
+24-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:27:3-52
+24-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:27:17-49
+25    <uses-feature
+25-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:28:3-91
+26        android:name="android.hardware.vulkan.version"
+26-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:28:17-63
+27        android:required="false" />
+27-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:28:64-88
+28    <uses-feature
+28-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+29        android:name="android.hardware.touchscreen"
+29-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+30        android:required="false" />
+30-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+31    <uses-feature
+31-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+33        android:required="false" />
+33-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+34    <uses-feature
+34-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+36        android:required="false" />
+36-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+37
+38    <application
+38-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:4:3-22:17
+39        android:debuggable="true"
+39-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:4:49-74
+40        android:extractNativeLibs="true"
+40-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:4:75-107
+41        android:icon="@mipmap/app_icon"
+41-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:4:108-139
+42        android:label="@string/app_name" >
+42-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:4:16-48
+43        <activity
+43-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:5-11:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+45-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:171-352
+46            android:hardwareAccelerated="false"
+46-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:388-423
+47            android:label="@string/app_name"
+47-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:69-101
+48            android:launchMode="singleTask"
+48-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:139-170
+49            android:resizeableActivity="false"
+49-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:353-387
+50            android:screenOrientation="fullUser" >
+50-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:5:102-138
+51            <intent-filter>
+51-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+52-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+54-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+55            </intent-filter>
+56
+57            <meta-data
+57-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+58                android:name="android.notch_support"
+58-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+59                android:value="true" />
+59-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+60        </activity>
+61        <activity
+61-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:5-284
+62            android:name="com.google.ar.core.InstallActivity"
+62-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:15-64
+63            android:configChanges="keyboardHidden|orientation|screenSize"
+63-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:65-126
+64            android:excludeFromRecents="true"
+64-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:127-160
+65            android:exported="false"
+65-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:161-185
+66            android:launchMode="singleTop"
+66-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:186-216
+67            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+67-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:12:217-281
+68
+69        <meta-data
+69-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:13:5-88
+70            android:name="unityplayer.SkipPermissionsDialog"
+70-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+71            android:value="true" />
+71-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:13:65-85
+72        <meta-data
+72-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:14:5-77
+73            android:name="com.google.ar.core"
+73-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:14:16-49
+74            android:value="optional" />
+74-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:14:50-74
+75        <meta-data
+75-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:15:5-94
+76            android:name="com.google.ar.core.min_apk_version"
+76-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:15:16-65
+77            android:value="181012000" />
+77-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:15:66-91
+78        <meta-data
+78-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:16:5-69
+79            android:name="unity.splash-mode"
+79-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:16:16-48
+80            android:value="0" />
+80-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:16:49-66
+81        <meta-data
+81-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:17:5-74
+82            android:name="unity.splash-enable"
+82-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:17:16-50
+83            android:value="True" />
+83-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:17:51-71
+84        <meta-data
+84-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:18:5-78
+85            android:name="unity.launch-fullscreen"
+85-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:18:16-54
+86            android:value="True" />
+86-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:18:55-75
+87        <meta-data
+87-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+88            android:name="unity.allow-resizable-window"
+88-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:19:16-59
+89            android:value="False" />
+89-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:19:60-81
+90        <meta-data
+90-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:20:5-81
+91            android:name="notch.config"
+91-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:20:16-43
+92            android:value="portrait|landscape" />
+92-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:20:44-78
+93        <meta-data
+93-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:21:5-84
+94            android:name="unity.auto-report-fully-drawn"
+94-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:21:16-60
+95            android:value="true" />
+95-->D:\Kuliah\Mata Kuliah\Semester 4\UTS\Mulmet\ARplane Final\unityLibrary\src\main\AndroidManifest.xml:21:61-81
+96    </application>
+97
+98</manifest>

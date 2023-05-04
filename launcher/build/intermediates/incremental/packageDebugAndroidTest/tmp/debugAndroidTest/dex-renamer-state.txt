@@ -1,0 +1,4 @@
+#Thu May 04 15:53:05 ICT 2023
+base.0=D\:\\Kuliah\\Mata Kuliah\\Semester 4\\UTS\\Mulmet\\ARplane Final\\launcher\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
